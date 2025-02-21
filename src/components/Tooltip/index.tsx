@@ -31,7 +31,7 @@ function Tooltip(props: Props) {
     "Find another hobby!",
     "Stop, please!",
     "Okay, last one!",
-    "That's it, I'm done!",
+    "STOP TOUCHING MEEE!!!! 🥴🥴",
   ];
 
   const currentMessage = () => {
