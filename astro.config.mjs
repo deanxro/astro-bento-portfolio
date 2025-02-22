@@ -17,10 +17,10 @@ export default defineConfig({
     sitemap(),
     robotsTxt({
       sitemap: [
-        "https://cheems.uk/sitemap-index.xml,
+        "https://cheems.uk/sitemap-index.xml",
       ],
     }),
-    solidJs(),
+	solidJs(),
     UnoCSS({ injectReset: true }),
     icon(),
     svelte(),
