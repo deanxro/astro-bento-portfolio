@@ -19,7 +19,21 @@ import { Image } from "astro:assets";
         </p>
       </div>
       <div class="flex gap-4">
-    <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://ia601005.us.archive.org/28/items/fettywapagainaudio/Fetty%20Wap%20-%20Again%20%5B%20Audio%20%5D.mp3" data-iframely-url="//iframely.net/UIw8Uyg"></a></div></div><script async src="//iframely.net/embed.js"></script>
+      <div>
+  <h2>Listen to this track:</h2>
+  <audio controls autoplay>
+    <source src="https://ia601005.us.archive.org/28/items/fettywapagainaudio/Fetty%20Wap%20-%20Again%20%5B%20Audio%20%5D.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<style>
+  audio {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    margin-top: 10px;
+  }
+</style>
       </div>
     </div>
     <Image
