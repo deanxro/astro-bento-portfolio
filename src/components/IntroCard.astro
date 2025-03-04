@@ -27,6 +27,14 @@ import { Image } from "astro:assets";
   </audio>
 </div>
 
+<script>
+  // Try to play the audio automatically
+  const audio = document.getElementById('audioPlayer');
+  audio.play().catch(() => {
+    console.log('Autoplay was blocked. Please interact with the page to play audio.');
+  });
+</script>
+
 <style>
   audio {
     width: 100%;
